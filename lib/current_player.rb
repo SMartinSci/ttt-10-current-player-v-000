@@ -20,3 +20,12 @@ def current_player(board)
  end
 end
 
+  board.each do |turn_count|
+    if turn_count == even 
+      return "X"
+    elsif
+      return "O"
+    end
+  end
+end
+
